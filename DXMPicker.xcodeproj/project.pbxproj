@@ -8,24 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		3D1A39B31C99C1BA00A4D370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39B21C99C1BA00A4D370 /* main.m */; };
-		3D1A39B61C99C1BA00A4D370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39B51C99C1BA00A4D370 /* AppDelegate.m */; };
-		3D1A39B91C99C1BA00A4D370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39B81C99C1BA00A4D370 /* ViewController.m */; };
+		3D1A39B61C99C1BA00A4D370 /* DXMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39B51C99C1BA00A4D370 /* DXMAppDelegate.m */; };
+		3D1A39B91C99C1BA00A4D370 /* DXMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39B81C99C1BA00A4D370 /* DXMViewController.m */; };
 		3D1A39BC1C99C1BA00A4D370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A39BA1C99C1BA00A4D370 /* Main.storyboard */; };
 		3D1A39BE1C99C1BA00A4D370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A39BD1C99C1BA00A4D370 /* Assets.xcassets */; };
 		3D1A39C11C99C1BA00A4D370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A39BF1C99C1BA00A4D370 /* LaunchScreen.storyboard */; };
+		3D1A39D31C99C23200A4D370 /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39CA1C99C23200A4D370 /* CameraView.m */; };
+		3D1A39D41C99C23200A4D370 /* JZCameraViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39CC1C99C23200A4D370 /* JZCameraViewLayout.m */; };
+		3D1A39D51C99C23200A4D370 /* JZItemCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39CE1C99C23200A4D370 /* JZItemCollectionCell.m */; };
+		3D1A39D61C99C23200A4D370 /* JZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39D01C99C23200A4D370 /* JZTextView.m */; };
+		3D1A39D71C99C23200A4D370 /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A39D21C99C23200A4D370 /* PickerView.m */; };
+		3D1A39D91C99C55200A4D370 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A39D81C99C55200A4D370 /* 1.png */; };
+		8B41E2211DC71D54005EF7ED /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B41E2201DC71D54005EF7ED /* PhotoView.m */; };
+		8BF267BA1DC7212200A34407 /* UIColor+DXM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF267B91DC7212200A34407 /* UIColor+DXM.m */; };
+		8BF267BF1DC72A3400A34407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF267BE1DC72A3400A34407 /* UIKit.framework */; };
+		8BF267C11DC72A4800A34407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF267C01DC72A4800A34407 /* Foundation.framework */; };
+		8BF267C31DC72A4F00A34407 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF267C21DC72A4F00A34407 /* AVFoundation.framework */; };
+		8BF267C61DC72A9300A34407 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF267C51DC72A9300A34407 /* MBProgressHUD.m */; };
+		8BF267C91DC72BC200A34407 /* UIImage+DXM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF267C81DC72BC200A34407 /* UIImage+DXM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D1A39AE1C99C1BA00A4D370 /* DXMPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DXMPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1A39B21C99C1BA00A4D370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3D1A39B41C99C1BA00A4D370 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3D1A39B51C99C1BA00A4D370 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D1A39B71C99C1BA00A4D370 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D1A39B81C99C1BA00A4D370 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D1A39B41C99C1BA00A4D370 /* DXMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXMAppDelegate.h; sourceTree = "<group>"; };
+		3D1A39B51C99C1BA00A4D370 /* DXMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXMAppDelegate.m; sourceTree = "<group>"; };
+		3D1A39B71C99C1BA00A4D370 /* DXMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXMViewController.h; sourceTree = "<group>"; };
+		3D1A39B81C99C1BA00A4D370 /* DXMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXMViewController.m; sourceTree = "<group>"; };
 		3D1A39BB1C99C1BA00A4D370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D1A39BD1C99C1BA00A4D370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1A39C01C99C1BA00A4D370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1A39C21C99C1BA00A4D370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1A39C91C99C23200A4D370 /* CameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraView.h; sourceTree = "<group>"; };
+		3D1A39CA1C99C23200A4D370 /* CameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraView.m; sourceTree = "<group>"; };
+		3D1A39CB1C99C23200A4D370 /* JZCameraViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCameraViewLayout.h; sourceTree = "<group>"; };
+		3D1A39CC1C99C23200A4D370 /* JZCameraViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCameraViewLayout.m; sourceTree = "<group>"; };
+		3D1A39CD1C99C23200A4D370 /* JZItemCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZItemCollectionCell.h; sourceTree = "<group>"; };
+		3D1A39CE1C99C23200A4D370 /* JZItemCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZItemCollectionCell.m; sourceTree = "<group>"; };
+		3D1A39CF1C99C23200A4D370 /* JZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTextView.h; sourceTree = "<group>"; };
+		3D1A39D01C99C23200A4D370 /* JZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTextView.m; sourceTree = "<group>"; };
+		3D1A39D11C99C23200A4D370 /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		3D1A39D21C99C23200A4D370 /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		3D1A39D81C99C55200A4D370 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		8B41E21F1DC71D54005EF7ED /* PhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoView.h; sourceTree = "<group>"; };
+		8B41E2201DC71D54005EF7ED /* PhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoView.m; sourceTree = "<group>"; };
+		8BF267B81DC7212200A34407 /* UIColor+DXM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DXM.h"; sourceTree = "<group>"; };
+		8BF267B91DC7212200A34407 /* UIColor+DXM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DXM.m"; sourceTree = "<group>"; };
+		8BF267BC1DC7227C00A34407 /* DXMPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DXMPicker-Prefix.pch"; sourceTree = "<group>"; };
+		8BF267BE1DC72A3400A34407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BF267C01DC72A4800A34407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BF267C21DC72A4F00A34407 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8BF267C41DC72A9300A34407 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8BF267C51DC72A9300A34407 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8BF267C71DC72BC200A34407 /* UIImage+DXM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DXM.h"; sourceTree = "<group>"; };
+		8BF267C81DC72BC200A34407 /* UIImage+DXM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DXM.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF267C31DC72A4F00A34407 /* AVFoundation.framework in Frameworks */,
+				8BF267C11DC72A4800A34407 /* Foundation.framework in Frameworks */,
+				8BF267BF1DC72A3400A34407 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +83,7 @@
 			children = (
 				3D1A39B01C99C1BA00A4D370 /* DXMPicker */,
 				3D1A39AF1C99C1BA00A4D370 /* Products */,
+				8BF267BD1DC72A3400A34407 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +98,17 @@
 		3D1A39B01C99C1BA00A4D370 /* DXMPicker */ = {
 			isa = PBXGroup;
 			children = (
-				3D1A39B41C99C1BA00A4D370 /* AppDelegate.h */,
-				3D1A39B51C99C1BA00A4D370 /* AppDelegate.m */,
-				3D1A39B71C99C1BA00A4D370 /* ViewController.h */,
-				3D1A39B81C99C1BA00A4D370 /* ViewController.m */,
+				3D1A39B41C99C1BA00A4D370 /* DXMAppDelegate.h */,
+				3D1A39B51C99C1BA00A4D370 /* DXMAppDelegate.m */,
+				3D1A39B71C99C1BA00A4D370 /* DXMViewController.h */,
+				3D1A39B81C99C1BA00A4D370 /* DXMViewController.m */,
+				3D1A39D81C99C55200A4D370 /* 1.png */,
+				3D1A39C81C99C23200A4D370 /* PickerView */,
 				3D1A39BA1C99C1BA00A4D370 /* Main.storyboard */,
 				3D1A39BD1C99C1BA00A4D370 /* Assets.xcassets */,
 				3D1A39BF1C99C1BA00A4D370 /* LaunchScreen.storyboard */,
 				3D1A39C21C99C1BA00A4D370 /* Info.plist */,
+				8BF267BC1DC7227C00A34407 /* DXMPicker-Prefix.pch */,
 				3D1A39B11C99C1BA00A4D370 /* Supporting Files */,
 			);
 			path = DXMPicker;
@@ -77,6 +120,41 @@
 				3D1A39B21C99C1BA00A4D370 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D1A39C81C99C23200A4D370 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3D1A39C91C99C23200A4D370 /* CameraView.h */,
+				3D1A39CA1C99C23200A4D370 /* CameraView.m */,
+				3D1A39CB1C99C23200A4D370 /* JZCameraViewLayout.h */,
+				3D1A39CC1C99C23200A4D370 /* JZCameraViewLayout.m */,
+				3D1A39CD1C99C23200A4D370 /* JZItemCollectionCell.h */,
+				3D1A39CE1C99C23200A4D370 /* JZItemCollectionCell.m */,
+				3D1A39CF1C99C23200A4D370 /* JZTextView.h */,
+				3D1A39D01C99C23200A4D370 /* JZTextView.m */,
+				3D1A39D11C99C23200A4D370 /* PickerView.h */,
+				3D1A39D21C99C23200A4D370 /* PickerView.m */,
+				8B41E21F1DC71D54005EF7ED /* PhotoView.h */,
+				8B41E2201DC71D54005EF7ED /* PhotoView.m */,
+				8BF267C41DC72A9300A34407 /* MBProgressHUD.h */,
+				8BF267C51DC72A9300A34407 /* MBProgressHUD.m */,
+				8BF267B81DC7212200A34407 /* UIColor+DXM.h */,
+				8BF267B91DC7212200A34407 /* UIColor+DXM.m */,
+				8BF267C71DC72BC200A34407 /* UIImage+DXM.h */,
+				8BF267C81DC72BC200A34407 /* UIImage+DXM.m */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		8BF267BD1DC72A3400A34407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF267C21DC72A4F00A34407 /* AVFoundation.framework */,
+				8BF267C01DC72A4800A34407 /* Foundation.framework */,
+				8BF267BE1DC72A3400A34407 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +183,7 @@
 		3D1A39A61C99C1BA00A4D370 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = YANGJINMING;
 				TargetAttributes = {
 					3D1A39AD1C99C1BA00A4D370 = {
@@ -138,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1A39C11C99C1BA00A4D370 /* LaunchScreen.storyboard in Resources */,
+				3D1A39D91C99C55200A4D370 /* 1.png in Resources */,
 				3D1A39BE1C99C1BA00A4D370 /* Assets.xcassets in Resources */,
 				3D1A39BC1C99C1BA00A4D370 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +229,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1A39B91C99C1BA00A4D370 /* ViewController.m in Sources */,
-				3D1A39B61C99C1BA00A4D370 /* AppDelegate.m in Sources */,
+				8B41E2211DC71D54005EF7ED /* PhotoView.m in Sources */,
+				3D1A39D71C99C23200A4D370 /* PickerView.m in Sources */,
+				3D1A39D41C99C23200A4D370 /* JZCameraViewLayout.m in Sources */,
+				8BF267BA1DC7212200A34407 /* UIColor+DXM.m in Sources */,
+				8BF267C61DC72A9300A34407 /* MBProgressHUD.m in Sources */,
+				3D1A39B91C99C1BA00A4D370 /* DXMViewController.m in Sources */,
+				3D1A39D51C99C23200A4D370 /* JZItemCollectionCell.m in Sources */,
+				3D1A39D61C99C23200A4D370 /* JZTextView.m in Sources */,
+				3D1A39B61C99C1BA00A4D370 /* DXMAppDelegate.m in Sources */,
+				8BF267C91DC72BC200A34407 /* UIImage+DXM.m in Sources */,
 				3D1A39B31C99C1BA00A4D370 /* main.m in Sources */,
+				3D1A39D31C99C23200A4D370 /* CameraView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +279,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -214,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -234,8 +324,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -251,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -262,7 +354,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "DXMPicker/DXMPicker-Prefix.pch";
 				INFOPLIST_FILE = DXMPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Daxiami.DXMPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,7 +367,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "DXMPicker/DXMPicker-Prefix.pch";
 				INFOPLIST_FILE = DXMPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Daxiami.DXMPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +395,7 @@
 				3D1A39C71C99C1BA00A4D370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
